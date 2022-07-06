@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         //create a variable so that we can link the webview
         val web = findViewById<WebView>(R.id.webview)
         web.webViewClient = WebViewClient()//responsible for loading the url defined below
-        web.loadUrl("www.intellectsoft.net")
+        web.loadUrl("https://www.intellectsoft.net/")
         val webSettings=web.settings
         webSettings.javaScriptEnabled=true
 
